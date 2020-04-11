@@ -1,0 +1,17 @@
+404 Error:
+When a DELETE request is sent.
+There is an 404 Error page is sent. This is due to the fact that the DELETE is not been defined in the Resource file.
+
+Whenever we request for a resource which is not available, the Error code is 404(NOT FOUND)
+
+405 error:
+If the resource doesn't accept a specific type of REST API function such as DELETE or PUT, the error code is 405(METHOD NOT SUPPORTED)
+
+400 error:
+If the input given cannot be consumed by the resource, the error code is 400(BAD REQUEST)
+
+500 error:
+If there is an error is completing the function assinged to a resource, the error code is 500(Internal Server Error)
+
+200 success code:
+For a successful request, we get 200 Status code
