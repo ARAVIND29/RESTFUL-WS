@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor="seagreen">
+	<h1>Add new Student</h1>
+	<fieldset>
+	<legend>CREATING NEW STUDENT</legend>
+	<form action="rest/students/sadd" method="post">
+	<table>
+		<tr><td>Student id</td><td><input type="text" name="studentId" required></td></tr>
+		<tr><td>Student Name</td><td><input type="text" name="studentName" required></td></tr>
+		<tr><td>Student Class</td><td><input type="text" name="studentClass" required></td></tr>
+		<tr><td>Marks obtained</td><td><input type="number" name="studentTotalMarks" required></td></tr>
+		<tr><td><input type="submit" value="add">
+	</table>
+	</form>
+	</fieldset>
+</body>
+</html>
